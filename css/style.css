@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #777 !important;
+    height: 10000;
+}
+
+a {
+    color: #CCCCFF !important;
+}
+
+a:hover {
+    color: white !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+
+.navbar-brand:hover {
+    text-shadow: 5px 2px 20px white;
+}
+
+.navbar-brand {
+    transition: 0.5s;
+}
+
+.dropdown-menu li a {
+    text-shadow: 1px 1px black;
+}
+
+.card-body h5 {
+    font-size: 40px;
+}
+
+.accordion-button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.btnbefo::before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(195, 234, 247);
+    top: 80px;
+    left: 13px;
+    display: none;
+}
+
+.btnbefo::after {
+    position: absolute;
+    content: " ";
+    height: 40px;
+    width: 80px;
+    background-color: rgb(195, 234, 247);
+    top: 80px;
+    left: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnbefo:active::before,
+.btn:hover::before {
+    display: block;
+}
+
+.btnbefo:hover::after {
+    content: "copier le code";
+    display: block;
+}
+
+.btnbefo:active::after {
+    content: "copier";
+    display: block;
+    height: 30px;
+}
+
+.text-light a {
+    text-decoration: underline;
+}
+
+.text-info {
+    font-size: large;
+}
+
+.bg-attachement {
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.img1 {
+    background-image: url(../images/خلفيات-كمبيوتر-موقع-محيط-_182048401_-__.jpg);
+    ;
+}
+
+.img2 {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+}
+
+.facebook {
+    text-align: center;
+}
+
+.num a {
+    cursor: pointer;
+    text-decoration: underline;
+}
